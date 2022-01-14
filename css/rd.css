@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/images/ramdhan.jpg");
+    color: white;
+    font-family:"Poppins","san-serif";
+    background-size: cover;
+    background-position: center top;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+   
+}
+h1{
+    margin-bottom: 3%;
+    font-size: 5rem;
+    font-weight:normal;
+    color:rgb(252, 248, 248)
+}
+
+.big-text{
+    font-size: 10rem;
+    line-height: 5rem;
+    margin:2rem;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+
+}
+.countdown-container{
+    display: flex;
+    margin-top:3rem;
+}
+.countdown-el span{
+    color: rgb(119, 89, 218);
+    font-size: 3rem;
+    margin:2rem 2rem;
+}
+li>a{
+    color: rgb(113, 75, 238);
+    font-size: 2rem;
+    
+
+   
+}

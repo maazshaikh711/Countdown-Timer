@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/images/haj.jpg");
+    color: rgb(8, 8, 8);
+    font-family:"Poppins","san-serif";
+    background-size: cover ;
+    background-position: center top;
+   align-items: center;
+    display:flex;
+    flex-direction: column;
+}
+h1{
+   
+    font-size: 7rem;
+    font-weight:normal;
+    margin-block-start:none;
+    margin-block-end:none;
+    margin: none;
+    position: relative ;
+    bottom: 5rem;
+}
+
+.big-text{
+    font-size: 10rem;
+    line-height: 5rem;
+    margin:2rem 2rem;
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    position: relative ;
+    bottom: 10rem;
+
+}
+.countdown-container{
+    display: flex;
+    margin-top:3rem;
+}
+.countdown-el span{
+    color: rgb(2, 2, 2);
+    font-size: 4rem;
+    margin: 1rem;
+    position: relative ;
+    bottom: 10rem;
+}
+li>a{
+    color: rgb(113, 75, 238);
+    font-size: 2rem
+}
